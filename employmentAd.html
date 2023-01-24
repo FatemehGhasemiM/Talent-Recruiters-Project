@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.css.map" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/bootstrap.min.js" defer></script>
-    <script src="js/script.js" defer></script>
-    <title>Recruitment ads</title>
+    <!-- <script src="js/bootstrap.min.js.map" defer></script> -->
+
+    <!-- <script src="js/script.js" defer></script> -->
+    <script src="js/employmentAd.js" defer></script>
+
+    <title>Employment advertisement</title>
   </head>
   <!-- bg-light bg-gradient -->
-  <body class="d-flex flex-column justify-content-between vh-100">
+  <body class="d-flex flex-column justify-content-between min-vh-100">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary p-4 m-0">
         <div class="container-fluid">
@@ -43,28 +49,31 @@
         </div>
       </nav>
     </header>
+
     <main>
-      <section class="input-group d-flex justify-content-center p-3">
-        <form class="w-50">
-          <input
-            type="search"
-            name="search"
-            id="search"
-            class="form-control shadow-sm"
-            placeholder=" search ..."
-            aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default"
-          />
-        </form>
-      </section>
-      <section id="container" class="container-fluid d-flex align-items-center justify-content-center flex-wrap">
-        <h1>Card Employment ...</h1>
-      </section>
+      <section
+        id="employmentAd"
+        class="container bg-info-subtle shadow rounded-4 p-3 mt-4 mb-5"
+      ></section>
     </main>
     <footer>
       <p class="text-center text-light bg-secondary p-3">
         Made by Fatemeh<i class="fa-solid fa-heart"></i>
       </p>
     </footer>
+
+    <!-- 
+    <script>
+      const myObject = { hello: "world" };
+      const myObjectString = JSON.stringify(myObject);
+      localStorage.setItem("objectGreeting", myObjectString);
+    </script> -->
+
+    <!-- SECOND PAGE -->
+    <!-- <script>
+      const myObjectString2 = localStorage.getItem("objectGreeting");
+      const myObject2 = JSON.parse(myObjectString2);
+      console.log(myObject2);
+    </script> -->
   </body>
 </html>
