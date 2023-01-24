@@ -1,0 +1,9 @@
+#base-slide {
+  /* background-image: url("../img/ewwe.jpg"); */
+}
+.bgimg-login {
+  background-image: url('../img/ewwe2.jpg');
+}
+.bgimg-login .row-login {
+  background-color: rgba(19, 19, 19, 0.593);
+}
